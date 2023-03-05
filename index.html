@@ -1,0 +1,131 @@
+<!DOCTYPE HTML>
+<html lang="en-US">
+<style>
+body{
+  background-image: url(123.jpg);
+   background-repeat: no-repeat;
+   background-attachment: fixed;
+   background-size: 100% 100%;
+}
+  * {
+    margin: 0;
+    padding: 0;
+  }
+
+  .header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    box-shadow: 0 .3rem 1.3rem rgba(0, 0, 0.1);
+    width: 100%;
+    height: 80px;
+  }
+
+  .header a i {
+    color: #16A085;
+    font-size: 25px;
+  }
+
+  .header a {
+    font-size: 30px;
+    text-decoration: none;
+    color: black;
+  }
+
+  .header ul {
+    display: flex;
+    list-style: none;
+    text-align: center;
+  }
+
+  .header ul li {
+    width: 110px;
+    text-align: center;
+  }
+
+  .header ul li a {
+    font-size: 20px;
+  }
+
+  .header ul li a:hover {
+    color: #16A085;
+  }
+  p{
+    font-size: 40px;
+    font-style: italic;
+    color: darkgreen;
+  }
+  .h{
+    text-align: left;
+    font-size: none;
+    color: blue;
+    margin:20px;
+  }
+  table,
+  th,
+  td {
+   font-size: 30px; 
+   color: rgb(19, 169, 66);
+  }
+  .image{
+    background-color: lightgrey;
+  width: 350px;
+  border: 15px solid green;
+  padding: 50px;
+  margin: 20px;
+  }
+  .sub{
+
+ margin-left: 165px;
+  }
+</style>
+
+<head>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous" />
+  <title>Hospital Website</title>
+</head>
+
+<body>
+  <div class="header">
+    <a href="" class="logo"><i class="fas fa-heartbeat"></i>medcare.</a>
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="index2.html">Services</a></li>
+      <li><a href="index3.html">About</a></li>
+      <li><a href="index4.html">Doctors</a></li>
+      <li><a href="index5.html">Book</a></li>
+      <li><a href="index6.html">Review</a></li>
+      
+    </ul>
+  </div>
+  <div class="image">
+    <p style="text-align:center"><b>Stay Safe,Stay Healthy</b></p>
+    <h1 class="h">Find Doctors</h1>
+    <br>
+    <table>
+      <tr>
+        <td >Select Branch</td><br>
+      </tr>
+    </table>
+    <from>
+
+      <input style="margin-left: 130px;" type="text" placeholder="Select a Branch"/>
+
+      <!-- <input type="text"/><br> -->
+      <br>
+          <label for="email">Enter your email:</label>
+          <input style="margin-left: 14px;" type="email" id="email" name="email"><br>
+          <!-- <button type="button">GO</button><br><br> -->
+          <label for="text">Enter Doctor name:</label>
+          <input type="text" id="text" name="text"><br><br>
+          <div class="sub" >
+          <input type="submit"><br>
+        </div>
+    </from><br>
+    <!-- <button type="button" >Friday Doctor Only</button> -->
+    <!-- <button type="button" >Close</button> -->
+  </div>
+</body>
+
+</html>
